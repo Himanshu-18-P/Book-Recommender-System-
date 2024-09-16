@@ -58,5 +58,5 @@ def create_app():
 if __name__ == '__main__':
     import uvicorn
     app = create_app()
-    app.run(debug=True)
-    # print('done')
+    asgi_app = WsgiToAsgi(app)
+    uvicorn.run(asgi_app, host='0.0.0.0', port=8501) 
