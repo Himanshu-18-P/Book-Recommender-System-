@@ -69,9 +69,11 @@ This project aims to provide users with book recommendations based on their read
 1. **Clone the repository**
 - [git clone https://github.com/Himanshu-18-P/Book-Recommender-System-.git] 
 2. **Navigate to the project directory**:
-- [cd /path/to/project]
+- [cd Book-Recommender-System-]
 3. **Running the Application**:
 - [python app.py]
 
-
-
+## Acknowledgments
+- Datasets: The project uses publicly available datasets for books and ratings.
+- Algorithms: Leverages collaborative filtering techniques commonly used in recommendation systems.
+- Community: Inspired by various open-source projects and tutorials in the data science community.
