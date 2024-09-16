@@ -2,4 +2,4 @@ flask
 numpy
 uvicorn
 asgiref
-
+pandas
